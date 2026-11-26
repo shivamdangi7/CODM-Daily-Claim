@@ -2,7 +2,7 @@ name: CODM Daily Claim
 
 on:
   schedule:
-    - cron: "30 6 * * *"   # daily 06:30 UTC (~12:00 IST). Change is if you want ig
+    - cron: "33 8 * * *"   # daily 08:33 UTC (14:03 IST; off-minute to avoid :30 cron queue delays)
   workflow_dispatch:      
 
 permissions:
