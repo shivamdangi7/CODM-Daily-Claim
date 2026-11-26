@@ -19,27 +19,15 @@
     {
       "skuId": "com.activision.callofduty.webstore_51_0_0",
       "name": "DAILY GIFT",
-      "status": "ACTIVE",
+      "status": "PURCHASE_LIMIT_REACHED",
       "buyUrl": "https://order-sa.codashop.com/claim-freebie-reward",
-      "remaining": 1,
+      "remaining": 0,
       "limit": 1,
       "refreshRate": 86400.0,
-      "refreshAtUnix": 1795737600
+      "refreshAtUnix": 1795737599
     }
   ],
-  "ok": true,
-  "claims": [
-    {
-      "skuId": "com.activision.callofduty.webstore_51_0_0",
-      "name": "DAILY GIFT",
-      "ok": true,
-      "result_code": 0,
-      "result": "SUCCESS",
-      "response": {
-        "RESULT_CODE": 0,
-        "errorCode": "",
-        "errorMsg": ""
-      }
-    }
-  ]
+  "ok": false,
+  "step": "select",
+  "error": "no claimable freebie: DAILY GIFT (PURCHASE_LIMIT_REACHED, remaining 0)"
 }
